@@ -11,6 +11,7 @@ class Figura{
     virtual double getArea() = 0; //es un metodo puro
     virtual double getPerimetro() = 0;
     virtual string toString() = 0;
+    virtual ~Figura();
 
 };
 #endif
