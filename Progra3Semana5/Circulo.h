@@ -12,6 +12,6 @@ class Circulo:public Figura{
     double getArea();
     double getPerimetro();
     string toString();
-    virtual ~Circulo();
+    //virtual ~Circulo();
 };
 #endif
